@@ -407,8 +407,7 @@ body:not(.user-is-tabbing) a:focus {
     background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)), 
         url('./images/header.jpg');
     height: 100vh;
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
     background-attachment: fixed;
     font-size: var(--font-size-normal);
@@ -417,7 +416,7 @@ body:not(.user-is-tabbing) a:focus {
 .header__text {
     position: absolute;
     top: 80%;
-    transform: translateY(-65%);
+    transform: translateY(-70%);
 }
 
 .header__text p {
